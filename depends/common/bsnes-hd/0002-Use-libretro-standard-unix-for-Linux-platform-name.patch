@@ -1,7 +1,7 @@
-From 62243b7155990235dc32ea4d179c2d0f29254b09 Mon Sep 17 00:00:00 2001
+From 845a56b41efda9ffffa1196e033300b37f6fb16b Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
 Date: Mon, 27 Mar 2023 16:33:11 -0700
-Subject: [PATCH] Use libretro standard "unix" for Linux platform name
+Subject: [PATCH 2/2] Use libretro standard "unix" for Linux platform name
 
 ---
  bsnes/GNUmakefile                 | 2 +-
@@ -13,7 +13,7 @@ Subject: [PATCH] Use libretro standard "unix" for Linux platform name
  6 files changed, 11 insertions(+), 11 deletions(-)
 
 diff --git a/bsnes/GNUmakefile b/bsnes/GNUmakefile
-index 58466fb..6e51009 100644
+index eceb96c..ba8d55f 100644
 --- a/bsnes/GNUmakefile
 +++ b/bsnes/GNUmakefile
 @@ -34,7 +34,7 @@ else ifeq ($(platform),macos)
@@ -48,7 +48,7 @@ index 4c67bde..c19d9f1 100644
  	rm -f $(prefix)/share/applications/$(name).desktop
  	rm -f $(prefix)/share/icons/$(name).png
 diff --git a/bsnes/target-libretro/GNUmakefile b/bsnes/target-libretro/GNUmakefile
-index 340c40a..89e41ee 100644
+index ddc2297..57bf702 100644
 --- a/bsnes/target-libretro/GNUmakefile
 +++ b/bsnes/target-libretro/GNUmakefile
 @@ -22,7 +22,7 @@ objects := $(patsubst %,obj/%.o,$(objects))
@@ -57,9 +57,9 @@ index 340c40a..89e41ee 100644
  all: $(objects)
 -ifeq ($(platform),linux)
 +ifeq ($(platform),unix)
- 	$(strip $(compiler) -o out/bsnes_hd_beta_libretro.so -shared $(objects) -Wl,--no-undefined -Wl,--version-script=target-libretro/link.T -lgomp -Wl,-Bdynamic $(options))
+ 	$(strip $(compiler) -o out/bsnes_hd_beta_libretro.so -shared $(objects) -Wl,--no-undefined -Wl,--version-script=target-libretro/link.T -Wl,-Bdynamic $(options))
  else ifeq ($(platform),windows)
- 	$(strip $(compiler) -o out/bsnes_hd_beta_libretro.dll -shared $(objects) -Wl,--no-undefined -Wl,--version-script=target-libretro/link.T -lgomp -Wl,-Bdynamic $(options))
+ 	$(strip $(compiler) -o out/bsnes_hd_beta_libretro.dll -shared $(objects) -Wl,--no-undefined -Wl,--version-script=target-libretro/link.T -Wl,-Bdynamic $(options))
 diff --git a/hiro/GNUmakefile b/hiro/GNUmakefile
 index f28c235..c625dce 100644
 --- a/hiro/GNUmakefile

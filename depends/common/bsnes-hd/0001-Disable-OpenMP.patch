@@ -1,3 +1,14 @@
+From fb04cf955bbb4a85ed583bd3df1b7a647e11adb7 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 27 Mar 2023 16:38:08 -0700
+Subject: [PATCH 1/2] Disable OpenMP
+
+Credit to Lakka.
+---
+ bsnes/GNUmakefile                 | 2 +-
+ bsnes/target-libretro/GNUmakefile | 6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
 diff --git a/bsnes/GNUmakefile b/bsnes/GNUmakefile
 index 58466fb..eceb96c 100644
 --- a/bsnes/GNUmakefile
@@ -35,3 +46,6 @@ index 340c40a..ddc2297 100644
  else ifeq ($(platform),libnx)
  	$(strip $(AR) rcs out/bsnes_hd_beta_libretro_libnx.a $(objects))
  else ifeq ($(platform),macos)
+-- 
+2.34.1
+
