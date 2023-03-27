@@ -1,0 +1,1 @@
+bsnes-hd https://github.com/DerKoun/bsnes-hd/archive/04821703aefdc909a4fd66d168433fcac06c2ba7.tar.gz

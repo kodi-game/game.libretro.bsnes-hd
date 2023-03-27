@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bsnes-hd"
-		name="bsnes-hd"
-		version="0.0.0.0"
-		provider-name="libretro">
+		name="Nintendo - SNES / SFC (bsnes-hd beta)"
+		version="10.6.0.1"
+		provider-name="Near, DerKoun">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
-		<extensions></extensions>
+		<extensions>smc|sfc|gb|gbc|bs</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<license>GPLv2</license>
+		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.bsnes-hd</source>
-		<summary lang="en_GB">bsnes-hd</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
 		<description lang="en_GB">bsnes-hd is a fork of bsnes that adds HD video features.</description>
 		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
 	</extension>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="bsnes_video_luminance" values="100|0|10|20|30|40|50|60|70|80|90" default="100"/>
+		<setting label="30002" type="select" id="bsnes_video_saturation" values="100|0|10|20|30|40|50|60|70|80|90|110|120|130|140|150|160|170|180|190|200" default="100"/>
+		<setting label="30003" type="select" id="bsnes_video_gamma" values="100|110|120|130|140|150|160|170|180|190|200" default="100"/>
+		<setting label="30004" type="select" id="bsnes_video_aspectcorrection" values="OFF|ON" default="OFF"/>
+		<setting label="30005" type="select" id="bsnes_ppu_show_overscan" values="OFF|ON" default="OFF"/>
+		<setting label="30006" type="select" id="bsnes_blur_emulation" values="OFF|ON" default="OFF"/>
+		<setting label="30007" type="select" id="bsnes_hotfixes" values="OFF|ON" default="OFF"/>
+		<setting label="30008" type="select" id="bsnes_entropy" values="Low|High|None" default="Low"/>
+		<setting label="30009" type="select" id="bsnes_cpu_overclock" values="100|10|20|30|40|50|60|70|80|90|110|120|130|140|150|160|170|180|190|200|210|220|230|240|250|260|270|280|290|300|310|320|330|340|350|360|370|380|390|400" default="100"/>
+		<setting label="30010" type="select" id="bsnes_cpu_fastmath" values="OFF|ON" default="OFF"/>
+		<setting label="30011" type="select" id="bsnes_cpu_sa1_overclock" values="100|10|20|30|40|50|60|70|80|90|110|120|130|140|150|160|170|180|190|200|210|220|230|240|250|260|270|280|290|300|310|320|330|340|350|360|370|380|390|400" default="100"/>
+		<setting label="30012" type="select" id="bsnes_cpu_sfx_overclock" values="100|10|20|30|40|50|60|70|80|90|110|120|130|140|150|160|170|180|190|200|210|220|230|240|250|260|270|280|290|300|310|320|330|340|350|360|370|380|390|400|410|420|430|440|450|460|470|480|490|500|510|520|530|540|550|560|570|580|590|600|610|620|630|640|650|660|670|680|690|700|710|720|730|740|750|760|770|780|790|800" default="100"/>
+		<setting label="30013" type="select" id="bsnes_ppu_fast" values="ON|OFF" default="ON"/>
+		<setting label="30014" type="select" id="bsnes_ppu_deinterlace" values="ON|OFF" default="ON"/>
+		<setting label="30015" type="select" id="bsnes_ppu_no_sprite_limit" values="ON|OFF" default="ON"/>
+		<setting label="30016" type="select" id="bsnes_ppu_no_vram_blocking" values="OFF|ON" default="OFF"/>
+		<setting label="30017" type="select" id="bsnes_dsp_fast" values="ON|OFF" default="ON"/>
+		<setting label="30018" type="select" id="bsnes_dsp_cubic" values="OFF|ON" default="OFF"/>
+		<setting label="30019" type="select" id="bsnes_dsp_echo_shadow" values="OFF|ON" default="OFF"/>
+		<setting label="30020" type="select" id="bsnes_coprocessor_delayed_sync" values="ON|OFF" default="ON"/>
+		<setting label="30021" type="select" id="bsnes_coprocessor_prefer_hle" values="ON|OFF" default="ON"/>
+		<setting label="30022" type="select" id="bsnes_sgb_bios" values="SGB1.sfc|SGB2.sfc" default="SGB1.sfc"/>
+		<setting label="30023" type="select" id="bsnes_run_ahead_frames" values="OFF|1|2|3|4" default="OFF"/>
+		<setting label="30024" type="select" id="bsnes_ips_headered" values="OFF|ON" default="OFF"/>
+		<setting label="30025" type="select" id="bsnes_mode7_scale" values="2x|disable|1x|3x|4x|5x|6x|7x|8x|9x|10x" default="2x"/>
+		<setting label="30026" type="select" id="bsnes_mode7_perspective" values="auto (wide)|auto (medium)|auto (narrow)|on (wide)|on (medium)|on (narrow)|off" default="auto (wide)"/>
+		<setting label="30027" type="select" id="bsnes_mode7_supersample" values="none|2x|3x|4x|5x|6x|7x|8x|9x|10x" default="none"/>
+		<setting label="30028" type="select" id="bsnes_mode7_mosaic" values="1x scale|non-HD|ignore" default="1x scale"/>
+		<setting label="30029" type="select" id="bsnes_mode7_bgGrad" values="4|1|2|3|5|6|7|8|0" default="4"/>
+		<setting label="30030" type="select" id="bsnes_mode7_windRad" values="0|1|2|3|4|5|6|7|8" default="0"/>
+		<setting label="30031" type="select" id="bsnes_mode7_wsMode" values="Mode 7|all|none" default="Mode 7"/>
+		<setting label="30032" type="select" id="bsnes_mode7_widescreen" values="16:9|16:10|21:9|2:1|4:3|none" default="16:9"/>
+		<setting label="30033" type="select" id="bsnes_mode7_wsbg1" values="auto horz and vert|on|auto horizontal|above line 40|below line 40|above line 80|below line 80|above line 120|below line 120|above line 160|below line 160|above line 200|below line 200|crop edges|auto crop edges|off|disable entirely" default="auto horz and vert"/>
+		<setting label="30034" type="select" id="bsnes_mode7_wsbg2" values="auto horz and vert|on|auto horizontal|above line 40|below line 40|above line 80|below line 80|above line 120|below line 120|above line 160|below line 160|above line 200|below line 200|crop edges|auto crop edges|off|disable entirely" default="auto horz and vert"/>
+		<setting label="30035" type="select" id="bsnes_mode7_wsbg3" values="auto horz and vert|on|auto horizontal|above line 40|below line 40|above line 80|below line 80|above line 120|below line 120|above line 160|below line 160|above line 200|below line 200|crop edges|auto crop edges|off|disable entirely" default="auto horz and vert"/>
+		<setting label="30036" type="select" id="bsnes_mode7_wsbg4" values="auto horz and vert|on|auto horizontal|above line 40|below line 40|above line 80|below line 80|above line 120|below line 120|above line 160|below line 160|above line 200|below line 200|crop edges|auto crop edges|off|disable entirely" default="auto horz and vert"/>
+		<setting label="30037" type="select" id="bsnes_mode7_wsobj" values="safe|unsafe|clip|disable entirely" default="safe"/>
+		<setting label="30038" type="select" id="bsnes_mode7_wsBgCol" values="auto|color|black" default="auto"/>
+		<setting label="30039" type="select" id="bsnes_mode7_igwin" values="outside|outside and always|all|none" default="outside"/>
+		<setting label="30040" type="select" id="bsnes_mode7_igwinx" values="128|40|88|168|216" default="128"/>
+		<setting label="30041" type="select" id="bsnes_mode7_wsMarker" values="none|lines|darken" default="none"/>
+		<setting label="30042" type="select" id="bsnes_mode7_wsMarkerAlpha" values="1/1|1/2|1/3|1/4|1/5|1/6|1/7|1/8|1/9|1/10" default="1/1"/>
+		<setting label="30043" type="select" id="bsnes_mode7_strWin" values="OFF|ON" default="OFF"/>
+	</category>
+</settings>
