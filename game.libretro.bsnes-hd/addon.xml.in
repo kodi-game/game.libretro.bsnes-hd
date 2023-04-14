@@ -18,10 +18,13 @@
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.bsnes-hd</source>
+		<summary lang="da_DK">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
 		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
 		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<description lang="da_DK">bsnes-hd er en forgrening af bsnes, der tilføjer HD-videofunktioner.</description>
 		<description lang="en_GB">bsnes-hd is a fork of bsnes that adds HD video features.</description>
 		<description lang="es_ES">bsnes-hd es un fork de bsnes que añade funcionalidades de video HD.</description>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
 		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
 		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
 		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
