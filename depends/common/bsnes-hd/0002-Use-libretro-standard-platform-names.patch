@@ -1,0 +1,63 @@
+From 3a06b0f8033523be8a98dad06a2279b92ff814c8 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 27 Mar 2023 16:33:11 -0700
+Subject: [PATCH 2/2] Use libretro standard platform names
+
+---
+ bsnes/GNUmakefile                 | 6 +++---
+ bsnes/target-libretro/GNUmakefile | 6 +++---
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/bsnes/GNUmakefile b/bsnes/GNUmakefile
+index eceb96c..949b5d7 100644
+--- a/bsnes/GNUmakefile
++++ b/bsnes/GNUmakefile
+@@ -20,7 +20,7 @@ endif
+ nall.path := ../nall
+ include $(nall.path)/GNUmakefile
+ 
+-ifeq ($(platform),windows)
++ifeq ($(platform),win)
+   ifeq ($(binary),application)
+     options += -luuid -lkernel32 -luser32 -lgdi32 -lcomctl32 -lcomdlg32 -lshell32
+     options += -Wl,-enable-auto-import
+@@ -28,13 +28,13 @@ ifeq ($(platform),windows)
+   else ifeq ($(binary),library)
+     options += -shared
+   endif
+-else ifeq ($(platform),macos)
++else ifeq ($(platform),osx)
+   ifeq ($(binary),application)
+   else ifeq ($(binary),library)
+     flags += -fPIC
+     options += -dynamiclib
+   endif
+-else ifneq ($(filter $(platform),linux bsd),)
++else ifneq ($(filter $(platform),unix bsd),)
+   ifeq ($(binary),application)
+     options += -Wl,-export-dynamic
+     options += -lX11 -lXext
+diff --git a/bsnes/target-libretro/GNUmakefile b/bsnes/target-libretro/GNUmakefile
+index ddc2297..ae06cd3 100644
+--- a/bsnes/target-libretro/GNUmakefile
++++ b/bsnes/target-libretro/GNUmakefile
+@@ -22,13 +22,13 @@ objects := $(patsubst %,obj/%.o,$(objects))
+ obj/libretro.o: target-libretro/libretro.cpp
+ 
+ all: $(objects)
+-ifeq ($(platform),linux)
++ifeq ($(platform),unix)
+ 	$(strip $(compiler) -o out/bsnes_hd_beta_libretro.so -shared $(objects) -Wl,--no-undefined -Wl,--version-script=target-libretro/link.T -Wl,-Bdynamic $(options))
+-else ifeq ($(platform),windows)
++else ifeq ($(platform),win)
+ 	$(strip $(compiler) -o out/bsnes_hd_beta_libretro.dll -shared $(objects) -Wl,--no-undefined -Wl,--version-script=target-libretro/link.T -Wl,-Bdynamic $(options))
+ else ifeq ($(platform),libnx)
+ 	$(strip $(AR) rcs out/bsnes_hd_beta_libretro_libnx.a $(objects))
+-else ifeq ($(platform),macos)
++else ifeq ($(platform),osx)
+ 	$(strip $(compiler) -o out/bsnes_hd_beta_libretro.dylib -shared $(objects) -lpthread -ldl)
+ else ifeq ($(platform),ios-arm64)
+ 	$(strip c++ -arch arm64 -marm -miphoneos-version-min=11.0 -isysroot $(shell xcodebuild -version -sdk iphoneos Path) -o out/bsnes_hd_beta_libretro_ios.dylib -shared $(objects) -lpthread -ldl)
+-- 
+2.34.1
+
