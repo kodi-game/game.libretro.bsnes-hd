@@ -10,7 +10,7 @@ GPLv3
 
 ### Icon
 
-Help make me an icon!
+![Nintendo - SNES / SFC (bsnes-hd beta) icon](game.libretro.bsnes-hd/resources/icon.png)
 
 ### Fanart
 
@@ -18,7 +18,9 @@ Help make me fanart!
 
 ### Screenshots
 
-Help make me screenshots!
+![Nintendo - SNES / SFC (bsnes-hd beta) screenshot](game.libretro.bsnes-hd/resources/screenshot-01.jpg)
+![Nintendo - SNES / SFC (bsnes-hd beta) screenshot](game.libretro.bsnes-hd/resources/screenshot-02.jpg)
+![Nintendo - SNES / SFC (bsnes-hd beta) screenshot](game.libretro.bsnes-hd/resources/screenshot-03.jpg)
 
 ### Disclaimer
 
