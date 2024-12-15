@@ -29,10 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "In loving memory of Near / Byuu"
 msgstr "怀念 Near / Byuu"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "设置"
-
 msgctxt "#30001"
 msgid "Color Adjustment - Luminance"
 msgstr "颜色调整 - 亮度"
@@ -204,3 +200,7 @@ msgstr "宽屏 - 标记 Alpha"
 msgctxt "#30043"
 msgid "Widescreen - Stretch Window"
 msgstr "宽屏 - 拉伸窗口"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "设置"

@@ -29,10 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "In loving memory of Near / Byuu"
 msgstr ""
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Nastavitve"
-
 msgctxt "#30001"
 msgid "Color Adjustment - Luminance"
 msgstr ""
@@ -204,3 +200,7 @@ msgstr ""
 msgctxt "#30043"
 msgid "Widescreen - Stretch Window"
 msgstr ""
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Nastavitve"
