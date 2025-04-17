@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.bsnes-hd\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2023-03-27 23:42i\n"
-"PO-Revision-Date: 2025-04-08 15:13+0000\n"
+"PO-Revision-Date: 2025-04-17 04:27+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-bsnes-hd/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - SNES / SFC (bsnes-hd beta)"
@@ -47,11 +47,11 @@ msgstr "Korrigera bildpunktsförhållande"
 
 msgctxt "#30005"
 msgid "Crop Overscan"
-msgstr "Beskär overscan"
+msgstr "Beskär överskanning"
 
 msgctxt "#30006"
 msgid "Blur Emulation"
-msgstr "Oskarp emulering"
+msgstr "Emulering av oskärpa"
 
 msgctxt "#30007"
 msgid "Hotfixes"
@@ -91,15 +91,15 @@ msgstr "PPU (Video) - Ingen sprite-gräns"
 
 msgctxt "#30016"
 msgid "PPU (Video) - No VRAM Blocking"
-msgstr "PPU (Video) - Ingen VRAM-blockering"
+msgstr "PPU (Video) - Ingen blockering av VRAM"
 
 msgctxt "#30017"
 msgid "DSP (Audio) - Fast Mode"
-msgstr "DSP (Ljud) - Snabbt läge"
+msgstr "DSP (ljud) - Snabbläge"
 
 msgctxt "#30018"
 msgid "DSP (Audio) - Cubic Interpolation"
-msgstr "DSP (Ljud) - Kubisk interpolation"
+msgstr "DSP (ljud) - kubisk interpolation"
 
 msgctxt "#30019"
 msgid "DSP (Audio) - Echo Shadow RAM"
@@ -121,9 +121,10 @@ msgctxt "#30023"
 msgid "Internal Run-Ahead"
 msgstr "Intern Run-Ahead"
 
+#, fuzzy
 msgctxt "#30024"
 msgid "Expect Headered ROMs for IPS Patches"
-msgstr ""
+msgstr "Förvänta dig Headered ROM:er för IPS-patchar"
 
 msgctxt "#30025"
 msgid "HD Mode 7 - Scale"
@@ -131,75 +132,78 @@ msgstr "HD Mode 7 - Skala"
 
 msgctxt "#30026"
 msgid "HD Mode 7 - Perspective Correction"
-msgstr ""
+msgstr "HD Mode 7 - Korrektion av perspektiv"
 
 msgctxt "#30027"
 msgid "HD Mode 7 - Supersampling"
-msgstr ""
+msgstr "HD Mode 7 - Supersampling"
 
 msgctxt "#30028"
 msgid "HD Mode 7 - HD->SD Mosaic"
-msgstr ""
+msgstr "HD Mode 7 - HD->SD Mosaik"
 
+#, fuzzy
 msgctxt "#30029"
 msgid "HD Background Color Radius"
-msgstr ""
+msgstr "HD Bakgrundsfärg Radius"
 
+#, fuzzy
 msgctxt "#30030"
 msgid "HD Windowing (Experimental)"
-msgstr ""
+msgstr "HD-fönster (experimentell)"
 
 msgctxt "#30031"
 msgid "Widescreen Mode"
-msgstr ""
+msgstr "Bredbildsläge"
 
 msgctxt "#30032"
 msgid "Widescreen - Aspect Ratio"
-msgstr ""
+msgstr "Bredbild - Bildförhållande"
 
 msgctxt "#30033"
 msgid "Widescreen - Background Layer 1"
-msgstr ""
+msgstr "Bredbild - Bakgrundslager 1"
 
 msgctxt "#30034"
 msgid "Widescreen - Background Layer 2"
-msgstr ""
+msgstr "Bredbild - Bakgrundslager 2"
 
 msgctxt "#30035"
 msgid "Widescreen - Background Layer 3"
-msgstr ""
+msgstr "Bredbild - Bakgrundslager 3"
 
 msgctxt "#30036"
 msgid "Widescreen - Background Layer 4"
-msgstr ""
+msgstr "Bredbild - Bakgrundslager 4"
 
 msgctxt "#30037"
 msgid "Widescreen - Sprites"
-msgstr ""
+msgstr "Bredbild - Sprites"
 
 msgctxt "#30038"
 msgid "Widescreen - Area Background Color"
-msgstr ""
+msgstr "Bredbild - Bakgrundsfärg för område"
 
 msgctxt "#30039"
 msgid "Widescreen - Ignore Window Effects"
-msgstr ""
+msgstr "Bredbild - Ignorera fönstereffekter"
 
+#, fuzzy
 msgctxt "#30040"
 msgid "Widescreen - Fallback X-Coordinate"
-msgstr ""
+msgstr "Bredbildsskärm - Fallback X-koordinat"
 
 msgctxt "#30041"
 msgid "Widescreen - Marker"
-msgstr ""
+msgstr "Bredbild - Markör"
 
 msgctxt "#30042"
 msgid "Widescreen - Marker Alpha"
-msgstr ""
+msgstr "Bredbild - Markör alfa"
 
 msgctxt "#30043"
 msgid "Widescreen - Stretch Window"
-msgstr ""
+msgstr "Bredbild - Sträck ut fönster"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
