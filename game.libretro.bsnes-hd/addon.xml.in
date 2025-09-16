@@ -32,11 +32,13 @@
 		<summary lang="da_DK">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
 		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
 		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (BSNES -HD Beta)</summary>
 		<summary lang="sv_SE">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
 		<summary lang="zh_CN">任天堂 - SNES / SFC (bsnes-hd beta)</summary>
 		<description lang="da_DK">bsnes-hd er en forgrening af bsnes, der tilføjer HD-videofunktioner.</description>
 		<description lang="en_GB">bsnes-hd is a fork of bsnes that adds HD video features.</description>
 		<description lang="es_ES">bsnes-hd es un fork de bsnes que añade funcionalidades de video HD.</description>
+		<description lang="ga">Is forc de BSNES é BSNES-HD a chuireann gnéithe físe HD leis.</description>
 		<description lang="sv_SE">bsnes-hd är en förgrening av bsnes som lägger till HD-videofunktioner.</description>
 		<description lang="zh_CN">bsnes-hd 是 bsnes 的一个分支，它添加了高清视频功能。</description>
 		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
