@@ -933,6 +933,118 @@ msgctxt "#30226"
 msgid "Extends windowing effects into the widescreen areas at the cost of precision. It is recommended to keep this option disabled, unless needed for widescreen hacks."
 msgstr ""
 
+msgctxt "#30227"
+msgid "Low"
+msgstr ""
+
+msgctxt "#30228"
+msgid "High"
+msgstr ""
+
+msgctxt "#30229"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30230"
+msgid "3x"
+msgstr ""
+
+msgctxt "#30231"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30232"
+msgid "5x"
+msgstr ""
+
+msgctxt "#30233"
+msgid "6x"
+msgstr ""
+
+msgctxt "#30234"
+msgid "7x"
+msgstr ""
+
+msgctxt "#30235"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30236"
+msgid "9x"
+msgstr ""
+
+msgctxt "#30237"
+msgid "10x"
+msgstr ""
+
+msgctxt "#30238"
+msgid "1"
+msgstr ""
+
+msgctxt "#30239"
+msgid "2"
+msgstr ""
+
+msgctxt "#30240"
+msgid "3"
+msgstr ""
+
+msgctxt "#30241"
+msgid "4"
+msgstr ""
+
+msgctxt "#30242"
+msgid "5"
+msgstr ""
+
+msgctxt "#30243"
+msgid "6"
+msgstr ""
+
+msgctxt "#30244"
+msgid "7"
+msgstr ""
+
+msgctxt "#30245"
+msgid "8"
+msgstr ""
+
+msgctxt "#30246"
+msgid "16:9"
+msgstr ""
+
+msgctxt "#30247"
+msgid "16:10"
+msgstr ""
+
+msgctxt "#30248"
+msgid "21:9"
+msgstr ""
+
+msgctxt "#30249"
+msgid "2:1"
+msgstr ""
+
+msgctxt "#30250"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30251"
+msgid "40"
+msgstr ""
+
+msgctxt "#30252"
+msgid "88"
+msgstr ""
+
+msgctxt "#30253"
+msgid "168"
+msgstr ""
+
+msgctxt "#30254"
+msgid "216"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Paramètres"
