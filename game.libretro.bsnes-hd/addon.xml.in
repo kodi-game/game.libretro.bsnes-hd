@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bsnes-hd"
 		name="Nintendo - SNES / SFC (bsnes-hd beta)"
-		version="10.6.0.18"
+		version="10.6.0.19"
 		provider-name="Near, DerKoun">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -13,12 +13,12 @@
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms></platforms>
+		<platforms>Nintendo - SNES / SFC</platforms>
 		<extensions>smc|sfc|gb|gbc|bs</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_disc_control>false</supports_disc_control>
-		<requires_opengl>false</requires_opengl>
+		<libretro_core>bsnes_hd_beta_libretro</libretro_core>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv3</license>
